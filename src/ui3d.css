@@ -1,0 +1,127 @@
+/* Premium 3D Visual Styling & Utilities */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.perspective-2000 {
+  perspective: 2000px;
+}
+
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+/* 3D Card Depth */
+.card-3d {
+  transform-style: preserve-3d;
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.08), 0 20px 25px -5px rgba(0, 0, 0, 0.04);
+}
+
+.card-3d:hover {
+  transform: translateY(-6px) rotateX(4deg) rotateY(-2deg);
+  box-shadow: 0 20px 40px -15px rgba(59, 130, 246, 0.15), 0 0 0 1px rgba(59, 130, 246, 0.1);
+}
+
+/* 3D Bar Cuboid Elements */
+.cuboid-wrap {
+  transform-style: preserve-3d;
+  perspective: 800px;
+}
+
+.cuboid-bar {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: height 0.6s cubic-bezier(0.16, 1, 0.3, 1), transform 0.3s ease;
+}
+
+.cuboid-bar:hover {
+  transform: translateZ(12px) scale(1.03);
+}
+
+.cuboid-front {
+  position: absolute;
+  inset: 0;
+  border-radius: 4px 4px 0 0;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, transparent 60%);
+}
+
+.cuboid-top {
+  position: absolute;
+  top: -8px;
+  left: 3px;
+  right: -3px;
+  height: 8px;
+  transform: skewX(-45deg);
+  border-radius: 2px 2px 0 0;
+  filter: brightness(1.25);
+}
+
+.cuboid-right {
+  position: absolute;
+  top: -4px;
+  right: -8px;
+  bottom: 0;
+  width: 8px;
+  transform: skewY(-45deg);
+  filter: brightness(0.75);
+}
+
+/* 3D Floating Animation */
+@keyframes float3D {
+  0%, 100% {
+    transform: translateY(0px) rotateX(0deg) rotateY(0deg);
+  }
+  50% {
+    transform: translateY(-10px) rotateX(3deg) rotateY(-3deg);
+  }
+}
+
+.animate-float-3d {
+  animation: float3D 6s ease-in-out infinite;
+}
+
+.animate-float-delay {
+  animation: float3D 7s ease-in-out 1.5s infinite;
+}
+
+/* Isometric Depth Platform */
+.iso-platform {
+  transform: rotateX(55deg) rotateZ(-35deg);
+  transform-style: preserve-3d;
+}
+
+/* Subtle 3D Glass Layer */
+.glass-3d {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
+}
+
+.dark-glass-3d {
+  background: rgba(17, 24, 39, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+}
+
+/* Respect Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  .card-3d,
+  .card-3d:hover,
+  .cuboid-bar,
+  .cuboid-bar:hover,
+  .animate-float-3d,
+  .animate-float-delay {
+    transform: none !important;
+    animation: none !important;
+    transition: none !important;
+  }
+}

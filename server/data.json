@@ -1,0 +1,894 @@
+{
+  "settings": {
+    "siteName": "Vansh PDF",
+    "siteTagline": "All-in-one PDF Tools & SaaS Platform",
+    "logoUrl": "/logo.svg",
+    "contactEmail": "support@vanshpdf.com",
+    "currency": "USD",
+    "currencySymbol": "$",
+    "currencies": [
+      {
+        "code": "USD",
+        "symbol": "$",
+        "name": "US Dollar",
+        "rate": 1,
+        "format": "symbol_first"
+      },
+      {
+        "code": "INR",
+        "symbol": "₹",
+        "name": "Indian Rupee",
+        "rate": 83.5,
+        "format": "symbol_first"
+      },
+      {
+        "code": "EUR",
+        "symbol": "€",
+        "name": "Euro",
+        "rate": 0.92,
+        "format": "symbol_first"
+      },
+      {
+        "code": "GBP",
+        "symbol": "£",
+        "name": "British Pound",
+        "rate": 0.79,
+        "format": "symbol_first"
+      },
+      {
+        "code": "AED",
+        "symbol": "AED ",
+        "name": "UAE Dirham",
+        "rate": 3.67,
+        "format": "symbol_first"
+      },
+      {
+        "code": "CAD",
+        "symbol": "CA$",
+        "name": "Canadian Dollar",
+        "rate": 1.36,
+        "format": "symbol_first"
+      },
+      {
+        "code": "AUD",
+        "symbol": "AU$",
+        "name": "Australian Dollar",
+        "rate": 1.52,
+        "format": "symbol_first"
+      }
+    ],
+    "appDownloads": {
+      "androidAppUrl": "https://play.google.com/store/apps/details?id=com.vanshpdf.app",
+      "iosAppUrl": "https://apps.apple.com/app/vansh-pdf-editor/id1628391024",
+      "androidAppEnabled": true,
+      "iosAppEnabled": true,
+      "releaseVersion": "v2.4.0",
+      "updatedAt": "2026-09-20T00:00:00.000Z"
+    },
+    "gateways": {
+      "stripe": {
+        "name": "Stripe",
+        "enabled": true,
+        "mode": "live",
+        "isReal": true,
+        "hasLiveCredentials": false,
+        "publicKey": "pk_test_sample_stripe_vansh",
+        "webhookConfigured": true,
+        "lastTestedAt": "2026-09-21T10:35:40.656Z",
+        "lastTestStatus": "connected",
+        "lastTestMessage": "Stripe Test Mode Binding Active: Mock card tokenization and test hooks verified."
+      },
+      "paypal": {
+        "name": "PayPal",
+        "enabled": true,
+        "mode": "live",
+        "isReal": true,
+        "hasLiveCredentials": false,
+        "clientId": "sb_client_id_vansh_paypal",
+        "webhookConfigured": false
+      },
+      "razorpay": {
+        "name": "Razorpay",
+        "enabled": true,
+        "mode": "test",
+        "isReal": true,
+        "hasLiveCredentials": false,
+        "keyId": "rzp_test_vansh_sample",
+        "webhookConfigured": true
+      },
+      "manual": {
+        "name": "Manual Payment (UPI / QR / Bank Wire)",
+        "enabled": true,
+        "mode": "manual",
+        "isReal": false,
+        "upiId": "vanshpdf@icici",
+        "upiQrUrl": "https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=upi%3A%2F%2Fpay%3Fpa%3Dvanshpdf%40icici%26pn%3DVansh%2520PDF%2520SaaS%26cu%3DINR",
+        "bankName": "Silicon Valley International Bank",
+        "accountName": "Vansh PDF Technologies Pvt Ltd",
+        "accountNumber": "9872019283741",
+        "ifscSwift": "SVIB0004281 / SWIFT: SVIBUS33",
+        "instructions": "Scan UPI QR code or initiate bank wire transfer. Submit Transaction ID / UTR and upload payment receipt below for rapid verification."
+      }
+    },
+    "guestLimits": {
+      "enabled": true,
+      "maxOperations": 3,
+      "sessionDurationMinutes": 60,
+      "maxFileSizeMB": 15,
+      "requireLoginAfterLimit": true,
+      "limitMessage": "You have reached the guest access limit. Please sign up for a free account or log in to continue using Vansh PDF tools.",
+      "guestMaxOperations": 5,
+      "guestSessionDurationMinutes": 90,
+      "guestMaxFileSizeMB": 20
+    },
+    "branding": {
+      "siteName": "Vansh PDF",
+      "siteTagline": "All-in-one PDF Tools & SaaS Platform",
+      "companyName": "Vansh Technologies Inc.",
+      "logoUrl": "/logo.svg",
+      "logoDarkUrl": "",
+      "faviconUrl": "/favicon.ico",
+      "primaryColor": "#2563eb",
+      "accentColor": "#4f46e5",
+      "brandBadgeText": "Enterprise Pro v2.4",
+      "contactEmail": "support@vanshpdf.com",
+      "supportPhone": "+1 (800) 555-PDFS",
+      "helpCenterUrl": "https://help.vanshpdf.com",
+      "copyrightText": "© 2026 Vansh Technologies Inc. All rights reserved.",
+      "socialLinks": {
+        "twitter": "https://twitter.com/vanshpdf",
+        "github": "https://github.com/vanshpdf",
+        "linkedin": "https://linkedin.com/company/vanshpdf",
+        "discord": "https://discord.gg/vanshpdf"
+      },
+      "seo": {
+        "metaTitle": "Vansh PDF - Fast, Secure PDF Tools & Neural OCR Suite",
+        "metaDescription": "78+ online PDF and OCR tools: Merge, Compress, Convert, Scan, and Extract OCR text with ISO 32000-1 compliance.",
+        "metaKeywords": "pdf tools, ocr pdf, image to text, searchable pdf, handwriting ocr, receipt ocr, merge pdf, convert pdf",
+        "ogImageUrl": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
+        "twitterHandle": "@vanshpdf",
+        "allowIndexing": true
+      },
+      "customCode": {
+        "gaMeasurementId": "G-VANSHPDF26",
+        "gtmId": "",
+        "metaPixelId": "",
+        "customCss": "",
+        "customHeaderJs": ""
+      },
+      "legal": {
+        "termsUrl": "#terms",
+        "privacyUrl": "#privacy",
+        "refundUrl": "#refund",
+        "gdprNoticeEnabled": true
+      }
+    }
+  },
+  "plans": [
+    {
+      "id": "free",
+      "name": "Free Starter",
+      "price": 0,
+      "annualPrice": 0,
+      "billingCycle": "monthly",
+      "features": [
+        "Up to 5 PDF operations / day",
+        "Max 15MB file size",
+        "Standard processing speed",
+        "Basic PDF tools (Merge, Split, Compress)",
+        "Single-file conversions",
+        "Community support"
+      ],
+      "limits": {
+        "dailyJobs": 5,
+        "maxFileSizeMB": 15,
+        "ocrAllowed": false,
+        "batchProcessing": false,
+        "priorityQueue": false
+      }
+    },
+    {
+      "id": "pro",
+      "name": "Pro Professional",
+      "price": 9.99,
+      "annualPrice": 99,
+      "billingCycle": "monthly",
+      "popular": true,
+      "features": [
+        "Unlimited PDF operations",
+        "Up to 150MB file size",
+        "High-speed server OCR (multi-language)",
+        "Batch processing (up to 50 files)",
+        "Advanced editing & form signer",
+        "Encrypted Cloud storage for 30 days",
+        "Priority customer support"
+      ],
+      "limits": {
+        "dailyJobs": 9999,
+        "maxFileSizeMB": 150,
+        "ocrAllowed": true,
+        "batchProcessing": true,
+        "priorityQueue": true
+      }
+    },
+    {
+      "id": "enterprise",
+      "name": "Enterprise Scale",
+      "price": 29.99,
+      "annualPrice": 289,
+      "billingCycle": "monthly",
+      "features": [
+        "Everything in Pro plus:",
+        "Unlimited file size (up to 1GB)",
+        "Dedicated API access with 10k calls/mo",
+        "Custom branding & white-label PDFs",
+        "Team seat management (up to 10 users)",
+        "Automated PDF workflow pipelines",
+        "99.9% Uptime SLA & 24/7 dedicated support"
+      ],
+      "limits": {
+        "dailyJobs": 99999,
+        "maxFileSizeMB": 1000,
+        "ocrAllowed": true,
+        "batchProcessing": true,
+        "priorityQueue": true
+      }
+    }
+  ],
+  "users": [
+    {
+      "id": "usr_admin_01",
+      "name": "System Administrator",
+      "email": "admin@vanshpdf.com",
+      "passwordHash": "admin123",
+      "role": "admin",
+      "planId": "pro",
+      "planStatus": "active",
+      "planExpiresAt": "2029-01-30T23:59:59.000Z",
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "usage": {
+        "totalJobs": 429,
+        "todayJobs": 15,
+        "storageUsedMB": 182.4
+      },
+      "passwordChangedAt": "2026-09-22T20:37:48.399Z"
+    },
+    {
+      "id": "usr_demo_02",
+      "name": "Alex Watson",
+      "email": "alexwatson0786@gmail.com",
+      "passwordHash": "alexnewpassword123",
+      "role": "user",
+      "planId": "pro",
+      "planStatus": "active",
+      "planExpiresAt": "2026-11-19T18:00:00.000Z",
+      "createdAt": "2026-03-12T10:30:00.000Z",
+      "usage": {
+        "totalJobs": 94,
+        "todayJobs": 3,
+        "storageUsedMB": 38.6
+      },
+      "passwordChangedAt": "2026-09-22T20:35:40.943Z"
+    },
+    {
+      "id": "usr_guest_03",
+      "name": "David Miller",
+      "email": "david.m@example.org",
+      "passwordHash": "user123",
+      "role": "user",
+      "planId": "free",
+      "planStatus": "active",
+      "planExpiresAt": null,
+      "createdAt": "2026-07-04T14:20:00.000Z",
+      "usage": {
+        "totalJobs": 18,
+        "todayJobs": 1,
+        "storageUsedMB": 8.2
+      }
+    },
+    {
+      "id": "usr_sarah_04",
+      "name": "Sarah Connor",
+      "email": "sarah.c@techcorp.io",
+      "passwordHash": "user123",
+      "role": "user",
+      "planId": "enterprise",
+      "planStatus": "active",
+      "planExpiresAt": "2027-02-15T00:00:00.000Z",
+      "createdAt": "2026-05-19T08:15:00.000Z",
+      "usage": {
+        "totalJobs": 312,
+        "todayJobs": 9,
+        "storageUsedMB": 124.8
+      }
+    }
+  ],
+  "payments": [
+    {
+      "id": "pay_1790106826123_0507f3",
+      "orderId": "ord_1790106824002_4d60cce5",
+      "invoiceId": "INV-2026-00008",
+      "userId": "usr_admin_01",
+      "userEmail": "admin@vanshpdf.com",
+      "userName": "System Administrator",
+      "planId": "pro",
+      "planName": "Pro Professional",
+      "billingCycle": "monthly",
+      "baseAmount": 9.99,
+      "discountAmount": 0,
+      "couponCode": null,
+      "amount": 9.99,
+      "currency": "USD",
+      "gateway": "stripe",
+      "gatewayMode": "live",
+      "paymentMethod": "card",
+      "status": "paid",
+      "verificationStatus": "Verified (Server-side)",
+      "refundStatus": "none",
+      "refundedAmount": 0,
+      "manualReviewRequired": false,
+      "verifiedBy": "Automated Gateway Engine",
+      "receiptUrl": "/api/user/invoices/ord_1790106824002_4d60cce5/download",
+      "transactionId": "ch_3N84xKL923019842",
+      "isTestMode": true,
+      "meta": {
+        "gatewayMode": "live",
+        "cardBrand": "Visa",
+        "cardLast4": "4242",
+        "clientIp": "127.0.0.1"
+      },
+      "createdAt": "2026-09-22T19:53:46.123Z",
+      "verifiedAt": "2026-09-22T19:53:46.123Z",
+      "updatedAt": "2026-09-22T19:53:46.123Z"
+    },
+    {
+      "id": "pay_1789986943224_6c5047",
+      "orderId": "test_ord_1789986943223",
+      "invoiceId": "INV-2026-00007",
+      "userId": "usr_admin",
+      "userEmail": "admin@vanshpdf.com",
+      "userName": "Admin Webhook Test",
+      "planId": "pro",
+      "planName": "Pro Test",
+      "billingCycle": "monthly",
+      "baseAmount": 9.99,
+      "discountAmount": 0,
+      "couponCode": null,
+      "amount": 9.99,
+      "currency": "USD",
+      "gateway": "stripe",
+      "gatewayMode": "live",
+      "paymentMethod": "card",
+      "status": "paid",
+      "verificationStatus": "Verified (Server-side)",
+      "refundStatus": "none",
+      "refundedAmount": 0,
+      "manualReviewRequired": false,
+      "verifiedBy": "Automated Gateway Engine",
+      "receiptUrl": "/api/user/invoices/test_ord_1789986943223/download",
+      "transactionId": "test_txn_1789986943223",
+      "isTestMode": true,
+      "meta": {
+        "gatewayMode": "live",
+        "cardBrand": "Visa",
+        "cardLast4": "4242",
+        "clientIp": "127.0.0.1"
+      },
+      "createdAt": "2026-09-21T10:35:43.224Z",
+      "verifiedAt": "2026-09-21T10:35:43.224Z",
+      "updatedAt": "2026-09-21T10:35:43.224Z"
+    },
+    {
+      "id": "pay_1789984538946_7cc8c0",
+      "orderId": "ord_1789984538939_20a824d9",
+      "userId": "usr_demo_02",
+      "userEmail": "alexwatson0786@gmail.com",
+      "userName": "Alex Watson",
+      "planId": "pro",
+      "planName": "Pro Professional",
+      "amount": 9.99,
+      "currency": "USD",
+      "gateway": "stripe",
+      "status": "paid",
+      "verificationStatus": "Verified (Server-side)",
+      "transactionId": "ch_test_1234567890",
+      "isTestMode": true,
+      "createdAt": "2026-09-21T09:55:38.947Z",
+      "verifiedAt": "2026-09-21T09:55:38.947Z"
+    },
+    {
+      "id": "pay_9821_491",
+      "orderId": "ord_8820_119",
+      "userId": "usr_demo_02",
+      "userEmail": "alexwatson0786@gmail.com",
+      "userName": "Alex Watson",
+      "planId": "pro",
+      "planName": "Pro Professional",
+      "amount": 9.99,
+      "currency": "USD",
+      "gateway": "stripe",
+      "status": "paid",
+      "verificationStatus": "Verified (Server-side)",
+      "transactionId": "txn_strp_9841890214",
+      "isTestMode": true,
+      "createdAt": "2026-09-18T14:32:00.000Z",
+      "verifiedAt": "2026-09-18T14:32:04.000Z"
+    },
+    {
+      "id": "pay_9815_312",
+      "orderId": "ord_8811_402",
+      "userId": "usr_sarah_04",
+      "userEmail": "sarah.c@techcorp.io",
+      "userName": "Sarah Connor",
+      "planId": "enterprise",
+      "planName": "Enterprise Scale",
+      "amount": 289,
+      "currency": "USD",
+      "gateway": "stripe",
+      "status": "paid",
+      "verificationStatus": "Verified (Server-side)",
+      "transactionId": "txn_strp_7749102481",
+      "isTestMode": false,
+      "createdAt": "2026-09-15T11:05:00.000Z",
+      "verifiedAt": "2026-09-15T11:05:08.000Z"
+    },
+    {
+      "id": "pay_9790_105",
+      "orderId": "ord_8780_991",
+      "userId": "usr_guest_03",
+      "userEmail": "david.m@example.org",
+      "userName": "David Miller",
+      "planId": "pro",
+      "planName": "Pro Professional",
+      "amount": 9.99,
+      "currency": "USD",
+      "gateway": "paypal",
+      "status": "pending",
+      "verificationStatus": "Pending Gateway Verification",
+      "transactionId": "pp_capture_pending_8819",
+      "isTestMode": true,
+      "createdAt": "2026-09-19T09:41:00.000Z",
+      "verifiedAt": null
+    },
+    {
+      "id": "pay_9760_884",
+      "orderId": "ord_8750_662",
+      "userId": "usr_demo_02",
+      "userEmail": "alexwatson0786@gmail.com",
+      "userName": "Alex Watson",
+      "planId": "enterprise",
+      "planName": "Enterprise Scale",
+      "amount": 29.99,
+      "currency": "USD",
+      "gateway": "razorpay",
+      "status": "failed",
+      "verificationStatus": "Rejected by Gateway",
+      "transactionId": "rzp_fail_sig_invalid",
+      "isTestMode": true,
+      "createdAt": "2026-09-12T16:20:00.000Z",
+      "verifiedAt": null
+    },
+    {
+      "id": "pay_9744_201",
+      "orderId": "ord_8730_314",
+      "userId": "usr_guest_03",
+      "userEmail": "david.m@example.org",
+      "userName": "David Miller",
+      "planId": "pro",
+      "planName": "Pro Professional",
+      "amount": 9.99,
+      "currency": "USD",
+      "gateway": "manual",
+      "status": "pending",
+      "verificationStatus": "Manual Verification Required",
+      "transactionId": "wire_ref_8829148",
+      "isTestMode": false,
+      "createdAt": "2026-09-20T10:15:00.000Z",
+      "verifiedAt": null
+    }
+  ],
+  "checkoutOrders": {
+    "ord_1789984500020_c0262117": {
+      "orderId": "ord_1789984500020_c0262117",
+      "userId": "usr_demo_02",
+      "userEmail": "alexwatson0786@gmail.com",
+      "userName": "Alex Watson",
+      "planId": "pro",
+      "planName": "Pro Professional",
+      "billingCycle": "monthly",
+      "baseAmount": 9.99,
+      "discountAmount": 0,
+      "amount": 9.99,
+      "currency": "USD",
+      "gateway": "manual",
+      "gatewayMode": "manual",
+      "isTestMode": true,
+      "coupon": null,
+      "status": "pending",
+      "createdAt": "2026-09-21T09:55:00.020Z",
+      "expiresAt": "2026-09-21T10:25:00.021Z"
+    },
+    "ord_1789984538939_20a824d9": {
+      "orderId": "ord_1789984538939_20a824d9",
+      "userId": "usr_demo_02",
+      "userEmail": "alexwatson0786@gmail.com",
+      "userName": "Alex Watson",
+      "planId": "pro",
+      "planName": "Pro Professional",
+      "billingCycle": "monthly",
+      "baseAmount": 9.99,
+      "discountAmount": 0,
+      "amount": 9.99,
+      "currency": "USD",
+      "gateway": "stripe",
+      "gatewayMode": "test",
+      "isTestMode": true,
+      "coupon": null,
+      "status": "paid",
+      "createdAt": "2026-09-21T09:55:38.939Z",
+      "expiresAt": "2026-09-21T10:25:38.939Z"
+    },
+    "test_ord_1789986943223": {
+      "orderId": "test_ord_1789986943223",
+      "userId": "usr_admin",
+      "userEmail": "admin@vanshpdf.com",
+      "userName": "Admin Webhook Test",
+      "planId": "pro",
+      "planName": "Pro Test",
+      "billingCycle": "monthly",
+      "baseAmount": 9.99,
+      "discountAmount": 0,
+      "amount": 9.99,
+      "currency": "USD",
+      "gateway": "stripe",
+      "gatewayMode": "live",
+      "isTestMode": true,
+      "status": "paid",
+      "createdAt": "2026-09-21T10:35:43.223Z",
+      "expiresAt": "2026-09-21T10:45:43.223Z"
+    },
+    "ord_1790106824002_4d60cce5": {
+      "orderId": "ord_1790106824002_4d60cce5",
+      "userId": "usr_admin_01",
+      "userEmail": "admin@vanshpdf.com",
+      "userName": "System Administrator",
+      "planId": "pro",
+      "planName": "Pro Professional",
+      "billingCycle": "monthly",
+      "baseAmount": 9.99,
+      "discountAmount": 0,
+      "amount": 9.99,
+      "currency": "USD",
+      "gateway": "stripe",
+      "gatewayMode": "live",
+      "isTestMode": true,
+      "coupon": null,
+      "status": "paid",
+      "createdAt": "2026-09-22T19:53:44.002Z",
+      "expiresAt": "2026-09-22T20:23:44.002Z"
+    }
+  },
+  "toolUsage": [
+    {
+      "toolId": "merge-pdf",
+      "name": "Merge PDF",
+      "count": 1422,
+      "category": "organize",
+      "successRate": 99.4
+    },
+    {
+      "toolId": "compress-pdf",
+      "name": "Compress PDF",
+      "count": 1180,
+      "category": "optimize",
+      "successRate": 98.7
+    },
+    {
+      "toolId": "pdf-to-word",
+      "name": "PDF to Word",
+      "count": 960,
+      "category": "convert",
+      "successRate": 97.2
+    },
+    {
+      "toolId": "split-pdf",
+      "name": "Split PDF",
+      "count": 750,
+      "category": "organize",
+      "successRate": 99.1
+    },
+    {
+      "toolId": "ocr-pdf",
+      "name": "OCR PDF",
+      "count": 620,
+      "category": "convert",
+      "successRate": 96.5
+    },
+    {
+      "toolId": "sign-pdf",
+      "name": "Sign PDF",
+      "count": 510,
+      "category": "security",
+      "successRate": 99.8
+    },
+    {
+      "toolId": "protect-pdf",
+      "name": "Protect PDF",
+      "count": 392,
+      "category": "security",
+      "successRate": 99.5
+    },
+    {
+      "toolId": "word-to-pdf",
+      "name": "Word to PDF",
+      "count": 482,
+      "category": "convert",
+      "successRate": 98.1
+    },
+    {
+      "toolId": "watermark-pdf",
+      "name": "watermark-pdf",
+      "count": 1,
+      "category": "general",
+      "successRate": 99
+    }
+  ],
+  "dailyStats": [
+    {
+      "date": "2026-09-14",
+      "users": 18,
+      "jobs": 142,
+      "failedJobs": 2,
+      "revenue": 89.9,
+      "payments": 3
+    },
+    {
+      "date": "2026-09-15",
+      "users": 24,
+      "jobs": 188,
+      "failedJobs": 3,
+      "revenue": 289,
+      "payments": 1
+    },
+    {
+      "date": "2026-09-16",
+      "users": 21,
+      "jobs": 165,
+      "failedJobs": 1,
+      "revenue": 39.96,
+      "payments": 4
+    },
+    {
+      "date": "2026-09-17",
+      "users": 30,
+      "jobs": 214,
+      "failedJobs": 4,
+      "revenue": 59.94,
+      "payments": 6
+    },
+    {
+      "date": "2026-09-18",
+      "users": 28,
+      "jobs": 240,
+      "failedJobs": 2,
+      "revenue": 69.93,
+      "payments": 7
+    },
+    {
+      "date": "2026-09-19",
+      "users": 35,
+      "jobs": 298,
+      "failedJobs": 5,
+      "revenue": 49.95,
+      "payments": 5
+    },
+    {
+      "date": "2026-09-20",
+      "users": 42,
+      "jobs": 320,
+      "failedJobs": 3,
+      "revenue": 79.92,
+      "payments": 8
+    },
+    {
+      "date": "2026-09-21",
+      "users": 1,
+      "jobs": 12,
+      "failedJobs": 0,
+      "revenue": 0,
+      "payments": 0
+    },
+    {
+      "date": "2026-09-22",
+      "users": 1,
+      "jobs": 1,
+      "failedJobs": 0,
+      "revenue": 0,
+      "payments": 0
+    }
+  ],
+  "coupons": [
+    {
+      "code": "VANSH50",
+      "discountPercent": 50,
+      "maxUses": 100,
+      "usedCount": 14,
+      "active": true
+    },
+    {
+      "code": "WELCOME10",
+      "discountPercent": 10,
+      "maxUses": 500,
+      "usedCount": 68,
+      "active": true
+    }
+  ],
+  "documents": [
+    {
+      "id": "doc_mud3drbv",
+      "userId": "usr_admin_01",
+      "name": "watermarked_1790106821262.pdf",
+      "toolId": "watermark-pdf",
+      "toolName": "WATERMARK PDF",
+      "size": "1.3 KB",
+      "pages": 2,
+      "createdAt": "2026-09-22T19:53:41.275Z",
+      "status": "ready"
+    },
+    {
+      "id": "doc_vault_01",
+      "userId": "usr_demo_02",
+      "name": "Quarterly_Financial_Summary_2026.pdf",
+      "toolId": "merge-pdf",
+      "toolName": "Merge PDF",
+      "size": "2.4 MB",
+      "pages": 12,
+      "createdAt": "2026-09-19T02:06:10.460Z",
+      "status": "ready"
+    },
+    {
+      "id": "doc_vault_02",
+      "userId": "usr_demo_02",
+      "name": "Product_Architecture_Roadmap_Compressed.pdf",
+      "toolId": "compress-pdf",
+      "toolName": "Compress PDF",
+      "size": "850 KB",
+      "pages": 6,
+      "createdAt": "2026-09-20T21:06:10.460Z",
+      "status": "ready"
+    },
+    {
+      "id": "doc_vault_03",
+      "userId": "usr_demo_02",
+      "name": "Contract_Agreement_Signed.pdf",
+      "toolId": "sign-pdf",
+      "toolName": "Sign PDF",
+      "size": "1.2 MB",
+      "pages": 4,
+      "createdAt": "2026-09-21T01:06:10.460Z",
+      "status": "ready"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "log_01",
+      "timestamp": "2026-09-21T00:22:43.013Z",
+      "action": "Admin Login",
+      "actor": "admin@vanshpdf.com",
+      "details": "Successful session authentication from IP 192.168.1.1",
+      "severity": "info"
+    },
+    {
+      "id": "log_02",
+      "timestamp": "2026-09-21T01:22:43.013Z",
+      "action": "Gateway Status Updated",
+      "actor": "admin@vanshpdf.com",
+      "details": "Stripe mode set to Test Sandbox",
+      "severity": "warning"
+    },
+    {
+      "id": "log_03",
+      "timestamp": "2026-09-21T02:22:43.013Z",
+      "action": "Database Synchronized",
+      "actor": "System",
+      "details": "All 78 tools catalog verified with active quotas",
+      "severity": "info"
+    }
+  ],
+  "emailsSent": [
+    {
+      "id": "eml_1790109468400_l9jpi",
+      "to": "admin@vanshpdf.com",
+      "subject": "Security Alert: Your Vansh PDF Password Was Changed",
+      "type": "password_changed",
+      "status": "delivered",
+      "timestamp": "2026-09-22T20:37:48.400Z",
+      "htmlBody": "\n      <div style=\"font-family: Arial, sans-serif; max-width: 600px; margin: auto; padding: 24px; border: 1px solid #e5e7eb; border-radius: 12px; background: #ffffff;\">\n        <h2 style=\"color: #059669; margin-top: 0;\">Password Successfully Changed</h2>\n        <p>Hello <strong>System Administrator</strong>,</p>\n        <p>This is a confirmation that your Vansh PDF account password was successfully updated on <strong>9/22/2026, 8:37:48 PM</strong>.</p>\n        <p>If you made this change, no further action is required.</p>\n        <div style=\"background: #fef2f2; border: 1px solid #fecaca; padding: 12px; border-radius: 8px; margin: 18px 0; color: #991b1b; font-size: 13px;\">\n          <strong>Security Notice:</strong> If you did NOT initiate this change, please contact support immediately at support@vanshpdf.com to secure your vault.\n        </div>\n        <hr style=\"border: none; border-top: 1px solid #e5e7eb; margin: 20px 0;\" />\n        <p style=\"color: #6b7280; font-size: 12px; text-align: center;\">© 2026 Vansh PDF Technologies Inc.</p>\n      </div>\n    "
+    },
+    {
+      "id": "eml_1790109465579_edikt",
+      "to": "admin@vanshpdf.com",
+      "subject": "Your Vansh PDF Password Was Successfully Changed",
+      "type": "password_changed",
+      "status": "delivered",
+      "timestamp": "2026-09-22T20:37:45.579Z",
+      "htmlBody": "\n      <div style=\"font-family: Arial, sans-serif; max-width: 600px; margin: auto; padding: 24px; border: 1px solid #e5e7eb; border-radius: 12px; background: #ffffff;\">\n        <h2 style=\"color: #059669; margin-top: 0;\">Password Successfully Changed</h2>\n        <p>Hello <strong>System Administrator</strong>,</p>\n        <p>This is a confirmation that your Vansh PDF account password was successfully updated on <strong>9/22/2026, 8:37:45 PM</strong>.</p>\n        <p>If you made this change, no further action is required.</p>\n        <div style=\"background: #fef2f2; border: 1px solid #fecaca; padding: 12px; border-radius: 8px; margin: 18px 0; color: #991b1b; font-size: 13px;\">\n          <strong>Security Notice:</strong> If you did NOT initiate this change, please contact support immediately at support@vanshpdf.com to secure your vault.\n        </div>\n        <hr style=\"border: none; border-top: 1px solid #e5e7eb; margin: 20px 0;\" />\n        <p style=\"color: #6b7280; font-size: 12px; text-align: center;\">© 2026 Vansh PDF Technologies Inc.</p>\n      </div>\n    "
+    },
+    {
+      "id": "eml_1790109460433_fvo1j",
+      "to": "admin@vanshpdf.com",
+      "subject": "Vansh PDF - Your Password Reset Code: 510421",
+      "type": "password_reset",
+      "status": "delivered",
+      "timestamp": "2026-09-22T20:37:40.433Z",
+      "htmlBody": "\n      <div style=\"font-family: Arial, sans-serif; max-width: 600px; margin: auto; padding: 24px; border: 1px solid #e5e7eb; border-radius: 12px; background: #ffffff;\">\n        <div style=\"text-align: center; margin-bottom: 20px;\">\n          <div style=\"display: inline-block; background: #2563eb; color: #ffffff; padding: 8px 16px; border-radius: 8px; font-weight: bold; font-size: 16px;\">Vansh PDF</div>\n        </div>\n        <h2 style=\"color: #1e3a8a; margin-top: 0;\">Password Reset Verification Code</h2>\n        <p>Hello <strong>System Administrator</strong>,</p>\n        <p>We received a request to reset your password for your Vansh PDF account. Please use the 6-digit verification code below to complete your password reset:</p>\n        <div style=\"background: #eff6ff; border: 2px dashed #3b82f6; padding: 18px; border-radius: 10px; margin: 24px 0; text-align: center;\">\n          <span style=\"font-size: 32px; font-weight: 800; letter-spacing: 8px; color: #1d4ed8; font-family: monospace;\">510421</span>\n        </div>\n        <p style=\"font-size: 13px; color: #4b5563;\">This code is valid for <strong>15 minutes</strong>. If you did not request a password reset, you can safely disregard this email. Your password will remain unchanged.</p>\n        <hr style=\"border: none; border-top: 1px solid #e5e7eb; margin: 20px 0;\" />\n        <p style=\"color: #6b7280; font-size: 12px; text-align: center;\">© 2026 Vansh PDF Technologies Inc. • Enterprise Document Vault Security</p>\n      </div>\n    "
+    },
+    {
+      "id": "eml_1790109340943_lytcz",
+      "to": "alexwatson0786@gmail.com",
+      "subject": "Your Vansh PDF Password Was Successfully Changed",
+      "type": "password_changed",
+      "status": "delivered",
+      "timestamp": "2026-09-22T20:35:40.943Z",
+      "htmlBody": "\n      <div style=\"font-family: Arial, sans-serif; max-width: 600px; margin: auto; padding: 24px; border: 1px solid #e5e7eb; border-radius: 12px; background: #ffffff;\">\n        <h2 style=\"color: #059669; margin-top: 0;\">Password Successfully Changed</h2>\n        <p>Hello <strong>Alex Watson</strong>,</p>\n        <p>This is a confirmation that your Vansh PDF account password was successfully updated on <strong>9/22/2026, 8:35:40 PM</strong>.</p>\n        <p>If you made this change, no further action is required.</p>\n        <div style=\"background: #fef2f2; border: 1px solid #fecaca; padding: 12px; border-radius: 8px; margin: 18px 0; color: #991b1b; font-size: 13px;\">\n          <strong>Security Notice:</strong> If you did NOT initiate this change, please contact support immediately at support@vanshpdf.com to secure your vault.\n        </div>\n        <hr style=\"border: none; border-top: 1px solid #e5e7eb; margin: 20px 0;\" />\n        <p style=\"color: #6b7280; font-size: 12px; text-align: center;\">© 2026 Vansh PDF Technologies Inc.</p>\n      </div>\n    "
+    },
+    {
+      "id": "eml_1790109335826_iae6e",
+      "to": "alexwatson0786@gmail.com",
+      "subject": "Vansh PDF - Your Password Reset Code: 664613",
+      "type": "password_reset",
+      "status": "delivered",
+      "timestamp": "2026-09-22T20:35:35.826Z",
+      "htmlBody": "\n      <div style=\"font-family: Arial, sans-serif; max-width: 600px; margin: auto; padding: 24px; border: 1px solid #e5e7eb; border-radius: 12px; background: #ffffff;\">\n        <div style=\"text-align: center; margin-bottom: 20px;\">\n          <div style=\"display: inline-block; background: #2563eb; color: #ffffff; padding: 8px 16px; border-radius: 8px; font-weight: bold; font-size: 16px;\">Vansh PDF</div>\n        </div>\n        <h2 style=\"color: #1e3a8a; margin-top: 0;\">Password Reset Verification Code</h2>\n        <p>Hello <strong>Alex Watson</strong>,</p>\n        <p>We received a request to reset your password for your Vansh PDF account. Please use the 6-digit verification code below to complete your password reset:</p>\n        <div style=\"background: #eff6ff; border: 2px dashed #3b82f6; padding: 18px; border-radius: 10px; margin: 24px 0; text-align: center;\">\n          <span style=\"font-size: 32px; font-weight: 800; letter-spacing: 8px; color: #1d4ed8; font-family: monospace;\">664613</span>\n        </div>\n        <p style=\"font-size: 13px; color: #4b5563;\">This code is valid for <strong>15 minutes</strong>. If you did not request a password reset, you can safely disregard this email. Your password will remain unchanged.</p>\n        <hr style=\"border: none; border-top: 1px solid #e5e7eb; margin: 20px 0;\" />\n        <p style=\"color: #6b7280; font-size: 12px; text-align: center;\">© 2026 Vansh PDF Technologies Inc. • Enterprise Document Vault Security</p>\n      </div>\n    "
+    },
+    {
+      "id": "eml_1790106826124_9pmtn",
+      "to": "admin@vanshpdf.com",
+      "subject": "Payment Receipt & Invoice #INV-2026-00008 - Vansh PDF",
+      "type": "invoice_paid",
+      "status": "delivered",
+      "timestamp": "2026-09-22T19:53:46.124Z",
+      "htmlBody": "\n      <div style=\"font-family: Arial, sans-serif; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #e5e7eb; border-radius: 8px;\">\n        <h2 style=\"color: #059669;\">Payment Confirmation & Receipt</h2>\n        <p>Dear <strong>System Administrator</strong>,</p>\n        <p>Thank you for subscribing to Vansh PDF <strong>pro</strong>. Your payment has been received and verified.</p>\n        <table style=\"width: 100%; border-collapse: collapse; margin: 15px 0;\">\n          <tr style=\"background: #f9fafb;\"><td style=\"padding: 8px; border: 1px solid #e5e7eb;\">Invoice ID</td><td style=\"padding: 8px; border: 1px solid #e5e7eb;\"><strong>INV-2026-00008</strong></td></tr>\n          <tr><td style=\"padding: 8px; border: 1px solid #e5e7eb;\">Amount Paid</td><td style=\"padding: 8px; border: 1px solid #e5e7eb;\"><strong>USD 9.99</strong></td></tr>\n          <tr style=\"background: #f9fafb;\"><td style=\"padding: 8px; border: 1px solid #e5e7eb;\">Gateway</td><td style=\"padding: 8px; border: 1px solid #e5e7eb;\">stripe</td></tr>\n          <tr><td style=\"padding: 8px; border: 1px solid #e5e7eb;\">Transaction ID</td><td style=\"padding: 8px; border: 1px solid #e5e7eb;\"><code>ch_3N84xKL923019842</code></td></tr>\n        </table>\n        <p>Your subscription is active until <strong>Active</strong>.</p>\n        <hr style=\"border: none; border-top: 1px solid #e5e7eb; margin: 20px 0;\" />\n        <p style=\"color: #6b7280; font-size: 12px;\">© 2026 Vansh PDF Technologies.</p>\n      </div>\n    "
+    }
+  ],
+  "guestSessions": [],
+  "teams": [],
+  "popupAds": [
+    {
+      "id": "ad_popup_top_promo",
+      "title": "Spring Special: 50% Off Pro Annual Access",
+      "enabled": true,
+      "adType": "banner",
+      "content": {
+        "html": "",
+        "adSenseClient": "ca-pub-1234567890123456",
+        "adSenseSlot": "9876543210",
+        "bannerImageUrl": "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=600&auto=format&fit=crop&q=80",
+        "bannerTargetUrl": "#/pricing",
+        "bannerHeadline": "Unlock Unlimited PDF Power with 50% Off",
+        "bannerSubtext": "Batch convert up to 2GB files, priority OCR, and 78+ premium tools with zero ads."
+      },
+      "position": "top",
+      "device": "all",
+      "displayTiming": "immediately",
+      "delaySeconds": 0,
+      "frequency": "every_page",
+      "showCloseButton": true,
+      "closeButtonDelay": 0,
+      "targetPages": [
+        "all"
+      ],
+      "maxWidth": 640,
+      "impressions": 135,
+      "clicks": 38,
+      "createdAt": "2026-09-20T00:00:00.000Z",
+      "updatedAt": "2026-09-22T00:00:00.000Z"
+    }
+  ],
+  "tools": [
+    {
+      "id": "split-pdf",
+      "isProOnly": true
+    }
+  ]
+}

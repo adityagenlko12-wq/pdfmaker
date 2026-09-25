@@ -1,0 +1,6 @@
+{
+  "name": "Vansh PDF SaaS",
+  "description": "Comprehensive PDF tools and SaaS platform with secure payment processing, admin analytics, 3D visualizations, and cross-platform mobile apps.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
